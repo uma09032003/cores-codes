@@ -41,14 +41,9 @@ int main(){
         bt[i]=b;
         pt[i]=c;
     }
-    //Printing the sorted processes based on Arrival Time
-   // printf("\nAT   BT   Priority");
-    //for(int i=0;i<n;i++){
-      //  printf("\n%d    %d    %d",at[i],bt[i],pt[i]);
-    //}
     int tat[n],wt[n];
     //Scheduling based on Priority 
-    int s=0;//Initial Execution time is set to Arrival Time of the first Process 
+    int s=0;//Initial Execution time is assumed to be 0  
     for(int i=0;i<n;i++){
         int j=i+1;
         //To find the pool of processes having same arrival time or the arrival time less then completion time of the previous process
@@ -59,18 +54,15 @@ int main(){
         int g=i;
         //If there are more than 1 process in the pool
         if(j>i+1){
-                
-                for(int l=i+1;l<j;l++){
+                for(int l=i;l<j;l++){
                     if((pt[p]>pt[l])&&pt[l]!=-1){
                         p=l;
                         i=g-1;
                     }
                 }
-        }
-                 
+        }  
                 if(pt[p]!=-1){
                 //If there is a waiting or a stall as there are no process in the queue
-                printf("\n!!!!%d",p);
                 if(s<at[p]){
                     s=s+(at[p]-s);
                 }
@@ -81,11 +73,8 @@ int main(){
         }
     }
         //Displaying the Process Arrival Time, Burst Time, Priority and Turn Around Time, and Waiting Time
-        
         printf("\nProcess    AT    BT       TAT    WT");
         for(int i=0;i<n;i++){
-        printf("\n   %d      %d    %d        %d     %d ",i+1,at[i],bt[i],tat[i],wt[i]);
-        
-        }
-    
+        printf("\n   %d      %d    %d        %d     %d ",i+1,at[i],bt[i],tat[i],wt[i]);       
+        }   
 }
