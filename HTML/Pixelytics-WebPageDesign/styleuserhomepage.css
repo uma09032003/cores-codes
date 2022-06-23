@@ -1,0 +1,78 @@
+body{
+background-image:url("C:\\Users\\91636\\Desktop\\Pixelytics\\Activity.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+}
+#pane{
+	height:200px;
+	padding-top:3px;
+	border-radius:4px;
+	width:99vw;
+}
+.mylist{
+	height:80px;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:8px;
+	padding-right:7px;
+	width:15.3vw;
+	display:inline-block;
+	text-align:center;
+	display:inline-flex;
+}
+.unitbox{
+	height:25;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid white;
+	border-radius:2px;
+	padding-left:9px;
+	padding-right:8px;
+	width:15.3vw;
+	background-color:rgb(5, 10, 82);
+	color:rgb(252, 186, 3);
+	display:inline-block;
+	text-align:center;
+
+}
+.unitbox:hover{
+	background-color:rgb(83, 76, 161);
+	color:rgb(173, 237, 232);
+	border:3px solid black;
+	border-radius:4px;
+	cursor:pointer;
+
+}
+.dropd{
+	height:80px;
+	display: none;
+	color:rgb(46, 54, 51);
+}
+.dropd a{
+	border:1px solid grey;
+	border-radius:2px;
+	width:100%;
+	background-color:rgb(12, 64, 28);
+	color:white;
+	cursor: pointer;
+	display:inline-block;
+}
+.dropd a:hover{
+	color:rgb(180, 176, 235);
+	background-color:black;
+	border-radius:3px;
+	border:3px solid rgb(174, 235, 242);
+}
+.dropd a:active{
+	color:white;
+	background-color:black;
+	border-radius:3px;
+	border:3px solid rgb(174, 235, 242);
+}
+button.unitbox:active
+{
+	background-color:green;
+}
+.mylist:hover .dropd{
+	display:block;
+}

@@ -1,0 +1,137 @@
+body{
+background-image:url("https://www.wired.com/images_blogs/gadgetlab/2009/09/thumb-660x495.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+}
+form{
+	border: 2px solid white;
+	border-radius:10px;
+	width:30vw;
+	height:31vw;
+	color:white;
+	font-size:25px;
+	font-family:"Lucida Console", "Courier New", cursive;
+    }
+ form:hover{
+ 	background-color:#003d66;
+ }
+.forform{
+	margin-top:5vw;
+	margin-left:35vw;
+	color:red;
+}
+label{
+	margin-left:13px;
+	margin-right:5px;
+	border-radius:4px;
+	margin-top:6px;
+	border:2px solid gray;
+	background-color:black;
+	color:white;
+	font-size:20px;
+	width:33%;
+	height:25px;
+	text-align:right;
+	font-family: "Sans-serif",serif;
+	display:inline-block;
+}
+label:hover{
+	margin-left:13px;
+	margin-right:5px;
+	border-radius:4px;
+	margin-top:6px;
+	border:2px solid gray;
+	background-color:#003d66;
+	color:white;
+	font-size:20px;
+	width:33%;
+	height:25px;
+	text-align:right;
+	font-family: "Sans-serif",serif;
+	display:inline-block;
+}
+#for-semicomon{
+	margin-right:4px;
+}
+input{
+	background-color:black;
+	border:1px solid white;
+	border-radius:4px;
+	color:white;
+	width:50%;
+	height:25px;
+}
+input:hover{
+	background-color:green;
+	border:1px solid white;
+	border-radius:4px;
+	color:black;
+	width:50%;
+	height:25px;
+}
+input[type="submit"]{
+	background-color:black;
+	border-color:#80aaff;
+	border-radius:6px;
+	color:white;
+	padding-top:3px;
+	padding-right:5px;
+	padding-left:5px;
+	padding-bottom:3px;
+	margin-left:70%;
+	margin-top:10px;
+	width:100px;
+	display:inline-block;
+}
+input[type="submit"]:hover{
+	background-color:black;
+	border-color:white;
+	border-radius:6px;
+	color:#ffa64d;
+	font-weight:solid;
+	padding-top:3px;
+	padding-right:5px;
+	padding-left:5px;
+	padding-bottom:3px;
+	margin-left:70%;
+	margin-top:10px;
+	width:100px;
+	display:inline-block;
+
+}
+input[type="submit"]:active{
+	background-color:green;
+	border-color:#fff2e6;
+	border-radius:6px;
+	color:white;
+	font-weight:solid;
+	padding-top:3px;
+	padding-right:5px;
+	padding-left:5px;
+	padding-bottom:3px;
+	margin-left:70%;
+	margin-top:10px;
+	width:100px;
+	display:inline-block;
+}
+a:link{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color:white;
+	background-color:black;
+	border:2px solid white;
+	border-radius:4px;
+}
+.blurb{
+	font-size:14px;
+	color:black;
+}
+.blurb:hover{
+	color:#cc7a00;
+
+}
+#imdiv{
+	margin-left=50vw;
+}

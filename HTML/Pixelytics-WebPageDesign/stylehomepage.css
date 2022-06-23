@@ -1,0 +1,91 @@
+body{
+background-image:url("https://www.wired.com/images_blogs/gadgetlab/2009/09/thumb-660x495.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+}
+#for-image{
+	display:flex;
+	justify-content: center;
+	margin-top:14vw;
+	margin-bottom:4vw;
+}
+#blurb{
+	font-size:15px;
+	color:white;
+	display:flex;
+	justify-content: center;
+}
+#blurb:hover{
+	color:#cc7a00;
+}
+.sign-in{
+background-color:green;
+color:white;
+font-weight:solid;
+font-size:25px;
+width:100px;
+text-align:center;
+border-radius:10px;
+cursor:pointer;
+}
+.log-in{
+background-color:green;
+color:black;
+font-weight:solid;
+font-size:30px;
+width:100px;
+border:1px solid black;
+text-align:center;
+border-radius:2px;
+border-color:black;
+margin-left:3px;
+cursor:pointer;
+}
+.sign-in:hover{
+background-color:white;
+color:green;
+font-weight:solid;
+font-size:25px;
+width:100px;
+text-align:center;
+border-radius:6px;
+}
+.log-in:hover{
+background-color:yellow;
+color:white;
+font-weight:solid;
+font-size:30px;
+width:100px;
+text-align:center;
+border-radius:2px;
+border-color:black;
+margin-left:3px;
+}
+.log-in:click{
+background-color:pink;
+color:white;
+font-weight:solid;
+font-size:30px;
+width:100px;
+text-align:center;
+border-radius:4px;
+border-color:black;
+margin-left:3px;
+}
+a.t:link{
+	text-decoration:none;
+	color:black;
+}
+a.t:hover{
+	color:white;
+	background-color:black;
+	border:2px solid white;
+	border-radius:4px;
+}
+a.asign-in:link{
+	text-decoration:none;
+	color:white;
+}
+a.asign-in:visited{
+	color:brown;
+}
